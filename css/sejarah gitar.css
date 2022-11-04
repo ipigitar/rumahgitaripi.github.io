@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+h1 {
+    padding: 0%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+
+.head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(229, 230, 228);
+    font-size: 1.2em;
+    position: relative;
+    overflow: hidden;
+}
+
+.imageheader {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+
+}
+
+
+.navi {
+    background-color: rgb(103, 162, 167);
+    padding: 1px;
+    align-items: inherit;
+
+}
+
+.options {
+    display: inline;
+    margin: 30px;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+nav a {
+    text-decoration: hsl(hue, saturation, lightness);
+    color: rgb(8, 8, 238);
+
+}
+
+.Navigasi-kembali {
+    color: rgb(42, 44, 165);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+nav a:hover {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1abc9c;
+    color: white;
+}
+
+.Active {
+    background-color: #1abc9c;
+    color: white;
+
+}
+
+li {
+    background-color: rgb(228, 208, 183);
+    border: 2px solid rgb(252, 252, 247);
+    text-align: center;
+
+
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+
+p {
+    text-indent: 30px;
+    word-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+aside {
+    text-align: center;
+    width: 24%;
+    float: left;
+    padding: 20px;
+}
+
+footer {
+    background-color: #1abc9c;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+main {
+    overflow: auto;
+}
+
+.card {
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgb(103, 162, 167);
+
+}
+
+.content {
+    width: 75%;
+    float: right;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.label {
+    background-color: #1abc9c;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ukuranGambar {
+    width: 200px;
+    right: auto;
+    border-radius: 50%;
+}
+
+.Gambar-Materi {
+    width: 300px;
+    right: auto;
+
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: initial;
+    text-align: center;
+    color: orangered;
+
+}
+
+section {
+    color: aliceblue;
+}
+
+
+@media screen and (max-width: 922px) {
+
+    .content,
+    aside {
+        width: 100%;
+    }
+}
